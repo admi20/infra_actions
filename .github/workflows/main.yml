@@ -3,6 +3,8 @@ name: CI
     push:
       branches: [master]
     pull request: [master]
-  jobs
+  jobs:
+    build:
+      runs on: ubuntu-latest
     
     
